@@ -53,4 +53,7 @@ cm = confusion_matrix(test_y, pred_y)
 
 #classification report
 print(classification_report(test_y, pred_y))
-
+#saving model
+import joblib
+joblib.dump(Logistic_model,"LogisticTitanicModel.joblib")
+print("Model Saved!")
