@@ -1,2 +1,3 @@
 # Titanic-Survival-Project-2
-This is the second project based on Logistic Regression Algorithm
+#Live Demo
+https://titanic-survival-project-2.streamlit.app/
